@@ -1,0 +1,15 @@
+Build a Recipe Class:
+
+XXX A recipe has a name
+XXX A recipe has a description
+XXX Recipe#name returns the name of the recipe
+XXX Recipe#description returns the description for the recipe
+XXX The name of the recipe cannot be changed
+XXX The description of the recipe can be updated
+XXX Recipe.all returns a list of all of the recipes that have been created
+
+
+Build a Restaurant Class:
+XXX A restaurant has a name
+XXX A restaurant has a star_rating which is an integer
+XXX A restaurant can change its name and its star_rating
