@@ -1,14 +1,3 @@
+Seems you've gone all the way and built out a many to many and your code looks good. Continue to improve your method naming. for example: `restaurant.get_recipes` doesn't actually return recipes, it returns `chef` instances so a better name would be `restaurant.chefs`
 
-## Questions
-
-- What is the difference between `self` on line 10 and `self` on line 13 in `recipe.rb`?
-- What is the purpose of the `Recipe.all` and `Restaurant.all` methods?
-
-## Next Steps
-- A Restaurant has many Recipes
-- A Recipe belongs to a Restaurant
-- Restaurant#recipes should return a list of all the recipes that belong to that restaurant
-- Recipe#restaurant should return the restaurant that that recipe belongs to
-- Restaurant.highest_rated returns the restaurant with the highest rating
-- Restaurant.find_by_name receives an argument of `name` as a string and returns the restaurant with that name
-- Restaurant#recipe_previews returns a list of strings containing the first 14 characters of a recipe's description
+However, it seems you have a handle on things. Focus on Active Record for now.
